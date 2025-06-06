@@ -6,6 +6,9 @@
             "type": "shell",
             "command": "g++",
             "args": [
+                "-std=c++11",
+                "-Wall",
+                "-O0",
                 "-g",
                 "${file}",
                 "-o",

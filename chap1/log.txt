@@ -1,0 +1,4 @@
+Program started
+Calling divide(12, 0)
+Result: 0
+Program ended
