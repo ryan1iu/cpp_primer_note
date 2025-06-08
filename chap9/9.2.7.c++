@@ -1,4 +1,6 @@
-#include "../include/common.h"
+#include <iostream>
+#include <list>
+#include <vector>
 using namespace std;
 // ex9.15: Write a program to determine if two vector<int> are equal.
 void ex915() {
@@ -26,7 +28,8 @@ bool ex916() {
   else {
     auto list_it = list1.cbegin();
     for (const int &elem : vec1) {
-      if (*list_it != elem) return false;
+      if (*list_it != elem)
+        return false;
       list_it++;
     }
   }

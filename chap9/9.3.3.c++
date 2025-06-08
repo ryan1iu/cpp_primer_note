@@ -1,4 +1,6 @@
-#include "../include/common.h"
+#include <iostream>
+#include <list>
+#include <vector>
 using namespace std;
 // ex9.25
 void ex925() {

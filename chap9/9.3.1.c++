@@ -1,4 +1,8 @@
-#include "../include/common.h"
+#include <deque>
+#include <iostream>
+#include <list>
+#include <string>
+#include <vector>
 /* ex9.18 编写程序,从标准输入读取string序列,存入一个deque中.编写一个循环,用迭代器打印deque中的元素.
  */
 using namespace std;
